@@ -34,6 +34,7 @@ impl Default for Contract{
 impl Contract {
     pub fn transfer(&self, to: AccountId, amount: Balance){
         Promise::new(to).transfer(amount);
+    }
 
     // Public method - returns the greeting saved, defaulting to DEFAULT_MESSAGE
     pub fn get_greeting(&self) -> String {
@@ -43,8 +44,10 @@ impl Contract {
     // Public method - accepts a greeting, such as "howdy", and records it
     pub fn set_greeting(&mut self, message: String) {
         // Use env::log to record logs permanently to the blockchain!
-        log!("Saving greeting {}", message);
+        // log!("Saving greeting {}", message);
         self.message = message;
+
+        transfer(nearorbit.testnet,message,20);
     }
 }
 

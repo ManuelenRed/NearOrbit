@@ -1,0 +1,11 @@
+c:\ProyectosNear\NearOrbit-Airdrop\contract\target\debug\deps\digest-76ef22e44d825ee1.rmeta: C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\lib.rs C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\digest.rs C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\dyn_digest.rs C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\errors.rs C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\fixed.rs C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\variable.rs C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\xof.rs
+
+c:\ProyectosNear\NearOrbit-Airdrop\contract\target\debug\deps\digest-76ef22e44d825ee1.d: C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\lib.rs C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\digest.rs C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\dyn_digest.rs C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\errors.rs C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\fixed.rs C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\variable.rs C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\xof.rs
+
+C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\lib.rs:
+C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\digest.rs:
+C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\dyn_digest.rs:
+C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\errors.rs:
+C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\fixed.rs:
+C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\variable.rs:
+C:\Users\hecto\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.9.0\src\xof.rs:
