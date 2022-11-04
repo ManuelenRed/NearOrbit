@@ -5,12 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="assets/favicon.ico"/>
   <link rel="apple-touch-icon" href="assets/favicon.ico"/>
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
-  <title>Welcome to NEAR</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <title>Welcome to OrbitNear</title>
   <link rel="stylesheet" href="assets/global.css">
 </head>
 <body>
-  <main id="signed-out-flow" style="display: none">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-md-10">
+        <form>
+          <div class="form-group">
+            <label for="InputWallet">Near Wallet</label>
+            <input type="text" class="form-control" id="InputWallet" aria-describedby="walletHelp" placeholder="Wallet">
+          </div>
+          <div class="form-group">
+            <label for="InputAmount">Near Amount </label>
+            <input type="text" class="form-control" id="InputAmount" placeholder="Amount">
+          </div>    
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+
+        <main id="signed-out-flow" style="display: none">
+          <p style="text-align: center; margin-top: 2.5em">
+            <button id="sign-in-button">Sign in with NEAR Wallet</button>
+          </p>
+        </main>
+
+        <div id="signed-in-flow" style="display: none">
+          <button style="float: right" id="sign-out-button">
+            Sign out <span data-behavior="account-id"></span>
+          </button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- <main id="signed-out-flow" style="display: none">
     <h1>
       The contract says: <span class="greeting" data-behavior="greeting"></span>
     </h1>
@@ -84,7 +116,7 @@
         <a target="_blank" href="https://examples.near.org">example apps</a>.
       </p>
     </main>
-  </div>
+  </div> -->
 
   <script src="index.js" type="module"></script>
 </body>

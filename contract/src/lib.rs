@@ -7,16 +7,19 @@
  */
 
 use near_sdk::borsh::{self, BorshDeserialize, BorshSerialize};
-use near_sdk::{log, near_bindgen};
+use near_sdk::{log, near_bindgen, AccountId, Promise, Balance};
 
 // Define the default message
 const DEFAULT_MESSAGE: &str = "Hello";
 
 // Define the contract structure
 #[near_bindgen]
-#[derive(BorshDeserialize, BorshSerialize)]
+#[derive(Default, BorshDeserialize, BorshSerialize)]
+
 pub struct Contract {
     message: String,
+    to: AccountId,
+    amount: Balance
 }
 
 // Define the default, which automatically initializes the contract
@@ -29,6 +32,9 @@ impl Default for Contract{
 // Implement the contract structure
 #[near_bindgen]
 impl Contract {
+    pub fn transfer(&self, to: AccountId, amount: Balance){
+        Promise::new(to).transfer(amount);
+
     // Public method - returns the greeting saved, defaulting to DEFAULT_MESSAGE
     pub fn get_greeting(&self) -> String {
         return self.message.clone();
