@@ -10,4 +10,4 @@ mediante la creacion de smart contracts que faciliten conectar a los usuarios co
 Para motivos del NCD nuestro equipo desarrollara un smart contract donde un Manager (Admin) 
 ¨community manager, CFO, influencer, Marketing head¨; recompensa a sus seguidores o usuarios mas leales mediante un airdrop.
 
-Continuamos trabajando en desarrollar integracion con discord y twitter para verificar mas requisitos.
+//Continuamos trabajando en desarrollar integracion con discord y twitter para verificar mas requisitos.
