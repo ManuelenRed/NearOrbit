@@ -1,0 +1,1 @@
+/mnt/c/Users/Manue/OneDrive/Escritorio/NCD/NearOrbit-Airdrop/contract/target/wasm32-unknown-unknown/release/hello_near.wasm: /mnt/c/Users/Manue/OneDrive/Escritorio/NCD/NearOrbit-Airdrop/contract/src/lib.rs
